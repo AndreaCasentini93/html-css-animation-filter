@@ -119,10 +119,20 @@
 }
 
 /* Esercizio 7 */
-
+.ex-7-img {
+    transition: linear 0.7s;
+}
+.ex-7-img:hover {
+    filter: sepia(50%) grayscale(30%);
+}
 
 /* Esercizio 8 */
+.ex-8-img {
+    
+}
+.ex-8-img:hover {
 
+}
 
 /* Esercizio 9 */
 
