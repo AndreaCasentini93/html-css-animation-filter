@@ -153,13 +153,13 @@
     animation-iteration-count: infinite;
 }
 @keyframes loading_infinite {
-    0% {
+    from {
         transform: rotate(360deg);
     }
     50% {
         transform: rotate(180deg);
     }
-    100% {
+    to {
         transform: rotate(0deg);
     }
 }
@@ -171,19 +171,53 @@
     animation-timing-function: linear;
 }
 @keyframes loading_limited {
-    0% {
+    from {
         transform: rotate(0deg);
     }
     90% {
         transform: rotate(270deg);
     }
-    100% {
+    to {
         transform: rotate(0deg);
     }
 }
 
 /* Esercizio 12 */
-
+.ex-12-button:hover .ex-12-top-white {
+    animation-name: left_right;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes left_right {
+    from {
+        left: 10%;
+    }
+    50% {
+        left: 60%;
+    }
+    to {
+        left: 10%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation-name: right_left;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes right_left {
+    from {
+        right: 20%;
+    }
+    50% {
+        right: 60%;
+    }
+    to {
+        right: 20%;
+    }
+}
+/* .ex-12-bottom-white {
+ 
+} */
 
 /* Esercizio 13 */
 
