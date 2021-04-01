@@ -215,10 +215,68 @@
         right: 20%;
     }
 }
-/* .ex-12-bottom-white {
- 
-} */
 
 /* Esercizio 13 */
+.ex-13-button:hover .ex-13-top-white {
+    animation-name: rotation_1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes rotation_1 {
+    from {
+        top: -10px;
+        left: 10%;
+    }
+    30% {
+        top: -10px;
+        left: 100%;    }
+    50% {
+        top: 60px;
+        left: 100%;
+    }
+    70% {
+        top: 60px;
+        left: calc(0% - 20px);
+    }
+    90% {
+        top: -10px;
+        left: calc(0% - 20px);
+    }
+    to {
+        top: -10px;
+        left: 10%;
+    }
+}
+.ex-13-button:hover .ex-13-bottom-white {
+    animation-name: rotation_2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes rotation_2 {
+    from {
+        right: 20%;
+        bottom: -10px;
+    }
+    30% {
+        right: calc(100% - 40px);
+        bottom: -10px;    
+    }
+    50% {
+        right: calc(100% - 40px);
+        bottom: 60px;
+    }
+    70% {
+        right: calc(0% - 20px);
+        bottom: 60px;
+    }
+    90% {
+        right: calc(0% - 20px);
+        bottom: -10px;
+    }
+    to {
+        right: 20%;
+        bottom: -10px;
+    }
+}
 
 /* /MY SOLUTION */
