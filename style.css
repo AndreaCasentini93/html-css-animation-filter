@@ -103,7 +103,15 @@
 }
 
 /* Esercizio 5 */
-
+.ex-5-square {
+    transition: linear 0.75s;
+}
+.ex-5-square:hover {
+    transform: scale(2, 2);
+}
+.ex-5-square:active {
+    transform: scale(0.5, 0.5);
+}
 
 /* Esercizio 6 */
 
