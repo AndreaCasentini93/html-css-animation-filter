@@ -120,17 +120,30 @@
 
 /* Esercizio 7 */
 .ex-7-img {
-    transition: linear 0.7s;
+    transition: linear 1s;
 }
 .ex-7-img:hover {
     filter: sepia(50%) grayscale(30%);
 }
 
 /* Esercizio 8 */
-
+.ex-8-img {
+    transition: linear 1s;
+}
+.ex-8-img:hover {
+    border-radius: 25px;
+    filter: sepia(50%) grayscale(30%);
+}
 
 /* Esercizio 9 */
-
+.ex-9-img {
+    transition: linear 1s;
+}
+.ex-9-img:hover {
+    transform: scale(1.5, 1.5);
+    border-radius: 25px;
+    filter: sepia(50%) grayscale(30%);
+}
 
 /* Esercizio 10 */
 
